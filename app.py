@@ -10,7 +10,7 @@ st.set_page_config(page_title="Image Stitching Pipeline", layout="wide")
 def main():
     # --- SIDEBAR: KONTROL PARAMETER ---
     st.sidebar.title("🛠️ Kontrol Parameter")
-    st.sidebar.markdown("**Tim Pengembang:**\n- Javier Shaw\n- Evan Jonathan Tjahjadi\n- Muhammad Faiqi Harumantaka\n- Darvesh Azraf Fakhiri")
+    st.sidebar.markdown("**Tim Pengembang:**\n- Javier Shaw\n- Evan Jonathan Tjahjadi\n- Muhammad Faiqi Harumantaka\n- Darvesh Azraf Fakhri")
     st.sidebar.markdown("---")
     
     ratio_thresh = st.sidebar.slider("Lowe's Ratio Test", 0.5, 0.9, 0.75, 0.05, help="Ambang batas untuk menyaring kecocokan fitur.")
